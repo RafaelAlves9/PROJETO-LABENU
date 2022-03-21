@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css">
+    <title>F4Life</title>
+</head>
+<body>
+    <header id="header-site"><!-- Menu de navegação -->
+        <div class="content-nav">
+            <a href="#section-header"><img class="logo-site" src="images/logo1.png" alt="logo F4Life"></a>
+            <nav class="nav-bar"><!-- Destok -->
+                <ul>
+                    <li><a href="#about-us">Quem Somos</a></li>
+                    <li><a href="#contact-us">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="section-header"><!-- Bloco do header -->
+        <div class="resume-content">
+            <div class="content-bloco1">
+                <h1>Seja bem-vindo a F4Life!</h1>
+                <h2>Conheça quem somos e fique por dentro das nossas novidades</h2>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="about-us"><!-- Quem somos -->
+        <div class="content-section">
+            <h1 class="tittle-section">Quem Somos</h1>
+            <h2 class="sub-tittle">Conheça um pouco mais da nossa empresa</h2>
+            <p>F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias. <br>
+            Similar aos modelos de Quinto Andar e Loft, a empresa realiza reformas e prepara moradias para recepção de pessoas universitárias em um ambiente específico e otimizado para a vida de graduação. </p>
+            <p>
+                Usamos tecnologia para garantir uma experiência segura em todas as etapas do processo de aluguel e venda.
+                Desde o momento do cadastro de um novo imóvel, passando pelas fotos e vídeos profissionais, até a assinatura do contrato, tudo é feito online.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact-us"><!-- Fale conosco -->
+        <div class="content-section">
+            <h1 class="tittle-section">Fale Conosco</h1>
+            <h2 class="sub-tittle">Entre em contato!</h2>
+            <form method="post">
+                <label class="email-container">Email
+                    <input class="email-form" name="email" type="email" placeholder="Digite seu melhor email*">
+                    <div class="alert-error email-error"></div>
+                </label>
+                <label class="messenge-container">Mensagem
+                    <textarea class="texto-form" name="texto" placeholder="Mande-nos uma mensagem*"></textarea>
+                    <div class="alert-error text-error"></div>
+                </label>
+                <button type="submit" class="button-form">Enviar</button>
+                <div class="alert-sucess"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer><!-- Rodapé -->
+        <div class="content-footer">
+            <p>©F4Life 2022</p>
+            <ul>
+                <li><a href="#" target="_blank"><img src="images/instagram.png" alt="instagram-icon"></a></li>
+                <li><a href="#" target="_blank"><img src="images/facebook.png" alt="facebook-icon"></a></li>
+                <li><a href="#" target="_blank"><img src="images/twitter.png" alt="twitter-icon"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="script/index.js"></script>
+</body>
+</html>
